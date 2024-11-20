@@ -1,0 +1,145 @@
+*{
+    padding: 1px;
+    margin: 1px;
+    box-sizing: border-box;
+   
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    width: 100%;
+    height: 400px;
+}
+
+section{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(4px);
+    border-top: solid 5px chocolate;
+    border-bottom: solid 5px chocolate;
+    width: 50%;
+    height: 510px;
+}
+
+
+
+section{
+    padding-bottom: 20px;
+}
+
+
+section
+{
+    color: chocolate;
+    outline: none;
+    border-color: 8px solid chocolate;
+    padding: 5px 10px;
+    border-top: 8px  solid chocolate;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .7s ease;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    
+    
+}
+
+.bloc1{
+    margin-top: -60%;
+    margin-left: 53%;
+}
+
+.bloc2{
+    margin-top: 39px;
+}
+
+section:hover
+{
+    
+    color: chocolate;
+    border: 2px chocolate solid;
+    box-shadow: 0 0 10px gray;
+}
+
+img{
+    letter-spacing: 1.5px;
+    color: chocolate;
+    border: 2px chocolate solid;
+    box-shadow: 0 0 10px gray;
+    height: 60%;
+    width: 310px;
+
+
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-bottom: chocolate 2px solid;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    margin-top: -200%;
+    margin-left: -112%;
+
+}
+
+textarea:focus{
+    border-bottom: 2px solid crimson;
+}
+
+
+
+a button
+{
+    
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    border: 2px  solid chocolate;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .7s ease;
+
+
+}
+
+p{
+    text-align: right;
+}
+ 
+a button:hover
+{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    color: crimson;
+    border: 2px crimson solid;
+    box-shadow: 0 0 10px chocolate;
+
+}
+
+.button{
+    margin-top: -5%;
+    margin-left: -78%;
+}
+.bloc3{
+    margin-right: -60%;
+}
+
+span{
+    color: crimson ;
+    font-weight: 700;
+    }
